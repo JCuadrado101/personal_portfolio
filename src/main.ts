@@ -1,5 +1,5 @@
 import './style.css'
-import { navigationMenu } from './component/navigation-header.ts'
+import { navigationMenu } from './component/navigation/navigation-header.ts'
 import { mainHero } from './component/main-hero.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
